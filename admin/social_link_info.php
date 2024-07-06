@@ -50,7 +50,7 @@ else {
         </span>
           <div class="input-field" style="width: 100%; margin-left: 10px;">
             <input value="<?php echo $info_twitter_profile; ?>" id="twitter" name="twitter" type="text" class="validate" required>
-            <label for="twitter">Twitter Profile</label>
+            <label for="twitter">Linkedin Profile</label>
           </div>
           <div>
             <button style="margin-top: 15px;" type="submit" name="submit_twitter" class="btn-floating btn-small waves-effect waves-light red"> <i class="material-icons">save</i></button>

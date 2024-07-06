@@ -26,11 +26,11 @@
           <!--Facebook-->
           <a href="<?php echo $facebook; ?>" type="button" class="btn-floating btn-secondary"><i class="fa fa-facebook"></i></a>
           <!--Twitter-->
-          <a href="<?php echo $twitter; ?>" type="button" class="btn-floating btn-secondary"><i class="fa fa-twitter"></i></a>
+          <a href="<?php echo $twitter; ?>" type="button" class="btn-floating btn-secondary"><i class="fa fa-linkedin"></i></a>
           <!--Google +-->
-          <a href="<?php echo $google_plus; ?>" type="button" class="btn-floating btn-secondary"><i class="fa fa-google-plus"></i></a>
+          <!-- <a href="<?php echo $google_plus; ?>" type="button" class="btn-floating btn-secondary"><i class="fa fa-google-plus"></i></a> -->
           <!--Youtube-->
-          <a href="<?php echo $youtube; ?>" type="button" class="btn-floating btn-secondary"><i class="fa fa-youtube"></i></a>
+          <!-- <a href="<?php echo $youtube; ?>" type="button" class="btn-floating btn-secondary"><i class="fa fa-youtube"></i></a> -->
           <!--Instagram-->
           <a href="<?php echo $instagram; ?>" type="button" class="btn-floating btn-secondary"><i class="fa fa-instagram"></i></a>
         </div>
