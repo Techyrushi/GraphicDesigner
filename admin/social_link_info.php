@@ -214,7 +214,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   
@@ -226,7 +226,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   
@@ -238,7 +238,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   
@@ -250,7 +250,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   
@@ -262,7 +262,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   
@@ -274,7 +274,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   
@@ -286,7 +286,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   
@@ -298,7 +298,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   
@@ -310,7 +310,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   
@@ -322,7 +322,7 @@ else {
         $run_update_info = mysqli_query($con, $update_info);
         if($run_update_info){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?social_link_info','_self')</script>";
+          echo "<script>window.open('index?social_link_info','_self')</script>";
         }
       }
   

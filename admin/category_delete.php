@@ -7,7 +7,7 @@
       $delete_user = "delete from category where id='$delete_id'";
       $run_delete = mysqli_query($con,$delete_user);
       if($run_delete){
-      echo "<script>window.open('index.php?design_category','_self')</script>";
+      echo "<script>window.open('index?design_category','_self')</script>";
       }
     }
   }

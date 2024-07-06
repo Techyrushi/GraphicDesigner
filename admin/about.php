@@ -89,7 +89,7 @@ else {
         $run_update_about = mysqli_query($con, $update_about);
         if($run_update_about){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?about','_self')</script>";
+          echo "<script>window.open('index?about','_self')</script>";
         }
       }
   
@@ -101,7 +101,7 @@ else {
         $run_update_about = mysqli_query($con, $update_about);
         if($run_update_about){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?about','_self')</script>";
+          echo "<script>window.open('index?about','_self')</script>";
         }
       }
   
@@ -113,7 +113,7 @@ else {
         $run_update_about = mysqli_query($con, $update_about);
         if($run_update_about){
           echo "<script>alert('Update Successful!')</script>";
-          echo "<script>window.open('index.php?about','_self')</script>";
+          echo "<script>window.open('index?about','_self')</script>";
         }
       }
     ?>

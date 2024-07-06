@@ -82,7 +82,7 @@ else {
       $run_design = mysqli_query($con,$insert_design);
       if($run_design){
         echo "<script>alert('Successfully Added !')</script>";
-        echo "<script>window.open('index.php?add_design','_self')</script>";
+        echo "<script>window.open('index?add_design','_self')</script>";
       }
     }else{
       echo "<script>alert('Error! Select the Category!')</script>";

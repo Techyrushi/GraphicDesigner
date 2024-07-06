@@ -7,7 +7,7 @@
       $delete_user = "delete from skills where id='$delete_id'";
       $run_delete = mysqli_query($con, $delete_user);
       if($run_delete){
-      echo "<script>window.open('index.php?skills','_self')</script>";
+      echo "<script>window.open('index?skills','_self')</script>";
       }
     }
   }

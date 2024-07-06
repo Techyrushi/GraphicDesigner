@@ -89,17 +89,17 @@ if(isset($_POST['submit'])){
 
   if($mail_count > 0) {
     echo "<script>alert('Sorry! Email Already Exist!')</script>";
-    echo "<script>window.open('index.php?insert_new_admin','_self')</script>";
+    echo "<script>window.open('index?insert_new_admin','_self')</script>";
   }else{
     if(!in_array($file_type, $allowed)) {
     echo "<script>alert('Only jpg, gif, and png files are allowed!')</script>";
-    echo "<script>window.open('index.php?insert_new_admin','_self')</script>";
+    echo "<script>window.open('index?insert_new_admin','_self')</script>";
     }else{
       move_uploaded_file($temp_admin_image,"assets/img/admin/$admin_image");
       $insert_admin = "insert into admins (admin_name,admin_email,admin_pass,admin_image,admin_contact) values ('$admin_name','$admin_email','$admin_pass','$admin_image','$admin_contact')";
       $run_admin = mysqli_query($con,$insert_admin);
       if($run_admin){
-        echo "<script>window.open('index.php?view_admins','_self')</script>";
+        echo "<script>window.open('index?view_admins','_self')</script>";
       }
     }
   }

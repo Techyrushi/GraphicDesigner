@@ -56,12 +56,12 @@ else {
                 <strong><?php echo $what_i_do_info; ?> </strong>
               </td>
               <td>
-                <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?what_i_do_edit=<?php echo $what_i_do_id; ?>">
+                <a class="btn-floating btn-small waves-effect waves-light red" href="index?what_i_do_edit=<?php echo $what_i_do_id; ?>">
                 <i class="material-icons">edit</i>
               </a>
               </td>
               <td>
-                <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?what_i_do_delete=<?php echo $what_i_do_id; ?>">
+                <a class="btn-floating btn-small waves-effect waves-light red" href="index?what_i_do_delete=<?php echo $what_i_do_id; ?>">
                 <i class="material-icons">delete</i>
               </a>
               </td>
@@ -75,7 +75,7 @@ else {
       <!--Main coading of View All what_i_do Ends-->
 
 
-      <form method="post" action="index.php?what_i_do_add" class="col s12">
+      <form method="post" action="index?what_i_do_add" class="col s12">
         <div class="card white-grey darken-1 hoverable">
           <div class="card-content">
             <div class="row">

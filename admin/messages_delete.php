@@ -8,7 +8,7 @@ else {
   $messages_delete_query = "delete from message where id='$delete_id'";
   $run_delete = mysqli_query($con, $messages_delete_query);
     if($run_delete){
-      echo "<script>window.open('index.php?messages','_self')</script>";
+      echo "<script>window.open('index?messages','_self')</script>";
     }
   }
 }

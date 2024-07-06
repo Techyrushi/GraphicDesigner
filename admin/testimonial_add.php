@@ -81,7 +81,7 @@ $allowed = array("image/jpeg", "image/gif", "image/png");
   
 if(!in_array($file_type, $allowed)) {
   echo "<script>alert('Only jpg, gif, and png files are allowed!')</script>";
-  echo "<script>window.open('index.php?testimonial_add','_self')</script>";
+  echo "<script>window.open('index?testimonial_add','_self')</script>";
 }else{
   if(intval($testimonial_rating) > 5 || intval($testimonial_rating) < 1){
   echo "<script>alert('Error! Valid rating please!')</script>";
@@ -90,7 +90,7 @@ if(!in_array($file_type, $allowed)) {
     $insert_testimonial = "INSERT INTO `testimonial` (`name`, `image`, `position`, `star`, `description`) VALUES ('$testimonial_name', '$testimonial_image', '$testimonial_job', '$testimonial_rating', '$testimonial_body');";
     $run_testimonial = mysqli_query($con,$insert_testimonial);
     if($run_testimonial){
-      echo "<script>window.open('index.php?testimonial_list','_self')</script>";
+      echo "<script>window.open('index?testimonial_list','_self')</script>";
     }
   }
 }

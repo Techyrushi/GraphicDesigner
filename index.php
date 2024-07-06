@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Tanvir Hasan</title>
+  <title>Shivam Aware</title>
 
   <!--Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
@@ -76,7 +76,7 @@
               <div class="row py-4">
                 <div class="col-md-12 mt-2">
                   <!--Section heading-->
-                  <h5 class="text-center white-text mb-2 wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                  <h5 class="text-center white-text mb-2 wow fadeIn" data-wow-delay="0.2s">Innovative Graphic Designer Crafting Visual Excellence</h5>
                 </div>
               </div>
             </div>

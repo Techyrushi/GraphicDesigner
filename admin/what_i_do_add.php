@@ -10,7 +10,7 @@
       $add_what_i_do_query = "INSERT INTO `whai_i_do` (`name`, `icon`, `info`) VALUES ('$what_i_do_name', '$what_i_do_icon', '$what_i_do_info');";
       $add_what_i_do = mysqli_query($con, $add_what_i_do_query);
       if($add_what_i_do){
-      echo "<script>window.open('index.php?what_i_do','_self')</script>";
+      echo "<script>window.open('index?what_i_do','_self')</script>";
       }
     }
   }

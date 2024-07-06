@@ -59,7 +59,7 @@ $admin_contact = $row_admin['admin_contact'];
                 <strong><?php echo $admin_contact; ?></strong>
               </td>
               <td>
-                <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?admin_delete=<?php echo $admin_id; ?>&image=<?php echo $admin_image; ?>">
+                <a class="btn-floating btn-small waves-effect waves-light red" href="index?admin_delete=<?php echo $admin_id; ?>&image=<?php echo $admin_image; ?>">
              <i class="material-icons">delete</i>
           </a>
               </td>

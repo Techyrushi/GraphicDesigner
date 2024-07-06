@@ -55,12 +55,12 @@ $design_info = $row_design['info'];
               <strong><?php echo $design_category; ?></strong>
             </td> 
             <td>
-              <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?design_edit=<?php echo $design_id; ?>">
+              <a class="btn-floating btn-small waves-effect waves-light red" href="index?design_edit=<?php echo $design_id; ?>">
               <i class="material-icons">edit</i>
           </a>
             </td>
             <td>
-              <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?design_delete=<?php echo $design_id; ?>&image=<?php echo $design_image; ?>">
+              <a class="btn-floating btn-small waves-effect waves-light red" href="index?design_delete=<?php echo $design_id; ?>&image=<?php echo $design_image; ?>">
             <i class="material-icons">delete</i>
           </a>
             </td>

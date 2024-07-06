@@ -62,12 +62,12 @@ else {
                 <strong><?php echo $testimonial_description; ?></strong>
               </td>
               <td>
-                <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?testimonial_edit=<?php echo $testimonial_id; ?>">
+                <a class="btn-floating btn-small waves-effect waves-light red" href="index?testimonial_edit=<?php echo $testimonial_id; ?>">
                    <i class="material-icons">edit</i>
                 </a>
               </td>
               <td>
-                <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?testimonial_delete=<?php echo $testimonial_id; ?>&image=<?php echo $testimonial_image; ?>">
+                <a class="btn-floating btn-small waves-effect waves-light red" href="index?testimonial_delete=<?php echo $testimonial_id; ?>&image=<?php echo $testimonial_image; ?>">
                   <i class="material-icons">delete</i>
                 </a>
               </td>

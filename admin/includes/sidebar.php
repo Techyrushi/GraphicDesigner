@@ -49,7 +49,7 @@ $design_count = mysqli_num_rows($run_design);
     </div>
   </li>
   <li>
-    <a class="active" href="index.php?dashboard">
+    <a class="active" href="index?dashboard">
       <i class="material-icons pink-item">dashboard
       </i>Dashboard
     </a>
@@ -59,20 +59,20 @@ $design_count = mysqli_num_rows($run_design);
     </div>
   </li>
   
-  <li><a href="index.php?about"><i class="material-icons pink-item">account_circle</i>About You</a></li>
+  <li><a href="index?about"><i class="material-icons pink-item">account_circle</i>About You</a></li>
   
-  <li><a href="index.php?skills"><i class="material-icons pink-item">stars</i>Skills</a></li>
+  <li><a href="index?skills"><i class="material-icons pink-item">stars</i>Skills</a></li>
   
-  <li><a href="index.php?what_i_do"><i class="material-icons pink-item">school</i>What I Do</a></li>
+  <li><a href="index?what_i_do"><i class="material-icons pink-item">school</i>What I Do</a></li>
   
   <li>
-    <a href="index.php?social_link_info">
+    <a href="index?social_link_info">
       <i class="material-icons pink-item">info_outline
       </i>Social Link & Info
     </a>
   </li>
   
-  <li><a href="index.php?messages"><i class="material-icons pink-item">markunread</i>Messages<span style="color: white;" class="badge red"><?php echo $message_count; ?></span></a></li>
+  <li><a href="index?messages"><i class="material-icons pink-item">markunread</i>Messages<span style="color: white;" class="badge red"><?php echo $message_count; ?></span></a></li>
   
   <li class="no-padding" style="margin-left: 15px;">
     <ul class="collapsible collapsible-accordion">
@@ -84,15 +84,15 @@ $design_count = mysqli_num_rows($run_design);
         <div class="collapsible-body">
           <ul>
             <li>
-              <a href="index.php?design_category">Category
+              <a href="index?design_category">Category
               </a>
             </li>
             <li>
-              <a href="index.php?all_designs">Designs<span style="color: white;" class="badge red"><?php echo $design_count; ?></span>
+              <a href="index?all_designs">Designs<span style="color: white;" class="badge red"><?php echo $design_count; ?></span>
               </a>
             </li>
             <li>
-              <a href="index.php?add_design">Add
+              <a href="index?add_design">Add
               </a>
             </li>
           </ul>
@@ -107,18 +107,18 @@ $design_count = mysqli_num_rows($run_design);
   <li class="no-padding" style="margin-left: 15px;">
     <ul class="collapsible collapsible-accordion">
       <li>
-        <a class="collapsible-header">TESTIMONIALS
+        <a class="collapsible-header">Testimonials
           <i class="material-icons pink-item">face
           </i>
         </a>
         <div class="collapsible-body">
           <ul>
             <li>
-              <a href="index.php?testimonial_add">Add
+              <a href="index?testimonial_add">Add
               </a>
             </li>
             <li>
-              <a href="index.php?testimonial_list">List<span style="color: white;" class="badge red"><?php echo $testimonial_count; ?></span>
+              <a href="index?testimonial_list">List<span style="color: white;" class="badge red"><?php echo $testimonial_count; ?></span>
               </a>
             </li>
           </ul>
@@ -140,15 +140,15 @@ $design_count = mysqli_num_rows($run_design);
         <div class="collapsible-body">
           <ul>
             <li>
-              <a href="index.php?insert_new_admin">Insert
+              <a href="index?insert_new_admin">Insert
               </a>
             </li>
             <li>
-              <a href="index.php?view_admins">View Admins<span style="color: white;" class="badge red"><?php echo $admin_count; ?></span>
+              <a href="index?view_admins">View Admins<span style="color: white;" class="badge red"><?php echo $admin_count; ?></span>
               </a>
             </li>
             <li>
-              <a href="index.php?edit_admin_profile=<?php echo $admin_id; ?>">Edit Current Profile
+              <a href="index?edit_admin_profile=<?php echo $admin_id; ?>">Edit Current Profile
               </a>
             </li>
           </ul>
@@ -161,7 +161,7 @@ $design_count = mysqli_num_rows($run_design);
     </div>
   </li>
   <li>
-    <a href="logout.php">
+    <a href="logout">
       <i class="material-icons pink-item">remove_circle
       </i>Logout
     </a>

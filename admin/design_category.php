@@ -42,7 +42,7 @@ $category_name = $row_category['category_name'];
                 <strong><?php echo $category_name; ?></strong>
               </td>
               <td>
-                <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?category_delete=<?php echo $category_id; ?>">
+                <a class="btn-floating btn-small waves-effect waves-light red" href="index?category_delete=<?php echo $category_id; ?>">
             <i class="material-icons">delete</i>
           </a>
               </td>
@@ -56,7 +56,7 @@ $category_name = $row_category['category_name'];
       <!--Main coading of View All category Ends-->
 
       
-        <form method="post" action="index.php?category_add" class="col s12">
+        <form method="post" action="index?category_add" class="col s12">
           <div class="card white-grey darken-1 hoverable">
             <div class="row">
               <div class="card-content">

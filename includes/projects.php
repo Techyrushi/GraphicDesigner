@@ -18,7 +18,7 @@
         <h2 class="font-up text-center font-bold my-4 pt-5 wow fadeIn" data-wow-delay="0.2s">My projects</h2>
         <hr class="between-sections">
         <p class="section-description mt-5 wow fadeIn" data-wow-delay="0.2s">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecati adipisci sapiente mollitia. </p>
+        Welcome to the "My Projects" section, where you can explore a diverse collection of my work that demonstrates my passion for graphic design and my commitment to excellence. Each project is a testament to my ability to transform ideas into visually stunning and effective designs. Here, you'll find a variety of projects that highlight my expertise across different areas of graphic design.</p>
       </div>
     </div>
   </div>

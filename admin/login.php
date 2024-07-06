@@ -642,7 +642,7 @@ include("includes/db.php");
 
       $_SESSION['admin_email']=$admin_email;
 
-      echo "<script>window.open('index.php?dashboard','_self')</script>";
+      echo "<script>window.open('index?dashboard','_self')</script>";
 
     }
     else {

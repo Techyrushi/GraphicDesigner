@@ -11,7 +11,7 @@ else {
     if($run_delete){
       $filename = "assets/img/admin/$admin_image";
       unlink($filename);
-      echo "<script>window.open('index.php?view_admins','_self')</script>";
+      echo "<script>window.open('index?view_admins','_self')</script>";
     }
   }
 }

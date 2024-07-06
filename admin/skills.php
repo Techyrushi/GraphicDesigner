@@ -48,7 +48,7 @@ else {
                 <strong><?php echo $skills_percentage; ?> %</strong>
               </td>
               <td>
-                <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?skills_delete=<?php echo $skills_id; ?>">
+                <a class="btn-floating btn-small waves-effect waves-light red" href="index?skills_delete=<?php echo $skills_id; ?>">
             <i class="material-icons">delete</i>
           </a>
               </td>
@@ -62,7 +62,7 @@ else {
       <!--Main coading of View All skills Ends-->
 
 
-      <form method="post" action="index.php?skills_add" class="col s12">
+      <form method="post" action="index?skills_add" class="col s12">
         <div class="card white-grey darken-1">
           <div class="card-content">
             <div class="row">

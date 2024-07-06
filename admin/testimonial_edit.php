@@ -100,11 +100,11 @@ else {
     if(!empty($testimonial_image)){
       if(!in_array($file_type, $allowed)) {
       echo "<script>alert('Only jpg, gif, and png files are allowed!')</script>";
-      echo "<script>window.open('index.php?testimonial_edit=$testimonial_edit_id','_self')</script>";
+      echo "<script>window.open('index?testimonial_edit=$testimonial_edit_id','_self')</script>";
       }else{
         if(intval($testimonial_rating) > 5 || intval($testimonial_rating) < 1){
           echo "<script>alert('Error! Valid rating please!')</script>";
-          echo "<script>window.open('index.php?testimonial_edit=$testimonial_edit_id','_self')</script>";
+          echo "<script>window.open('index?testimonial_edit=$testimonial_edit_id','_self')</script>";
         }else{
           move_uploaded_file($temp_testimonial_image,"assets/img/testimonial/$testimonial_image");
           if(empty($testimonial_image)){
@@ -116,14 +116,14 @@ else {
           $update_testimonial = "UPDATE `testimonial` SET `name` = '$testimonial_name', `image` = '$testimonial_image', `position` = '$testimonial_job', `star` = '$testimonial_rating', `description` = '$testimonial_body' WHERE `testimonial`.`id` = $testimonial_edit_id";
           $run_testimonial = mysqli_query($con, $update_testimonial);
           if($run_testimonial){
-            echo "<script>window.open('index.php?testimonial_list','_self')</script>";
+            echo "<script>window.open('index?testimonial_list','_self')</script>";
           }
         }
       }
     }else{
       if(intval($testimonial_rating) > 5 || intval($testimonial_rating) < 1){
         echo "<script>alert('Error! Valid rating please!')</script>";
-        echo "<script>window.open('index.php?testimonial_edit=$testimonial_edit_id','_self')</script>";
+        echo "<script>window.open('index?testimonial_edit=$testimonial_edit_id','_self')</script>";
       }else{
         move_uploaded_file($temp_testimonial_image,"assets/img/testimonial/$testimonial_image");
         if(empty($testimonial_image)){
@@ -135,7 +135,7 @@ else {
         $update_testimonial = "UPDATE `testimonial` SET `name` = '$testimonial_name', `image` = '$testimonial_image', `position` = '$testimonial_job', `star` = '$testimonial_rating', `description` = '$testimonial_body' WHERE `testimonial`.`id` = $testimonial_edit_id";
         $run_testimonial = mysqli_query($con, $update_testimonial);
         if($run_testimonial){
-          echo "<script>window.open('index.php?testimonial_list','_self')</script>";
+          echo "<script>window.open('index?testimonial_list','_self')</script>";
         }
       }
     }

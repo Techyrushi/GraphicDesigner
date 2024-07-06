@@ -105,7 +105,7 @@ else {
       $run_design = mysqli_query($con,$update_design);
       if($run_design){
         echo "<script>alert('Successfully Updated !')</script>";
-        echo "<script>window.open('index.php?all_designs','_self')</script>";
+        echo "<script>window.open('index?all_designs','_self')</script>";
       }
     }else{
       echo "<script>alert('Error! Select the Category!')</script>";

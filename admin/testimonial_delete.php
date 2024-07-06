@@ -11,7 +11,7 @@ else {
     if($run_delete){
       $filename = "assets/img/testimonial/$testimonial_image";
       unlink($filename);
-      echo "<script>window.open('index.php?testimonial_list','_self')</script>";
+      echo "<script>window.open('index?testimonial_list','_self')</script>";
     }
   }
 }

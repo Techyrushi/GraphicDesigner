@@ -96,7 +96,7 @@ $admin_contact = $row_admin['admin_contact'];
     if(!empty($admin_image)){
       if(!in_array($file_type, $allowed)) {
       echo "<script>alert('Only jpg, gif, and png files are allowed!')</script>";
-      echo "<script>window.open('index.php?edit_admin_profile=$edit_id','_self')</script>";
+      echo "<script>window.open('index?edit_admin_profile=$edit_id','_self')</script>";
       }else{
         move_uploaded_file($temp_admin_image,"assets/img/admin/$admin_image");
         if(empty($admin_image)){

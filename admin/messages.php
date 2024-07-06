@@ -54,7 +54,7 @@ else {
           <strong><?php echo $messages_message; ?></strong>
         </td>
         <td>
-          <a class="btn-floating btn-small waves-effect waves-light red" href="index.php?messages_delete=<?php echo $messages_id; ?>">
+          <a class="btn-floating btn-small waves-effect waves-light red" href="index?messages_delete=<?php echo $messages_id; ?>">
             <i class="material-icons">delete</i>
           </a>
         </td>

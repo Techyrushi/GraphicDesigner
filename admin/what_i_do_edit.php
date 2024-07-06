@@ -71,7 +71,7 @@ else {
         $update_query = "UPDATE `whai_i_do` SET `name` = '$updated_what_i_do_name', `icon` = '$updated_what_i_do_icon', `info` = '$updated_what_i_do_info' WHERE `whai_i_do`.`id` = $what_i_do_edit_id";
         $run_update_query = mysqli_query($con, $update_query);
         if($run_update_query){
-          echo "<script>window.open('index.php?what_i_do','_self')</script>";
+          echo "<script>window.open('index?what_i_do','_self')</script>";
         }
       } 
     ?>

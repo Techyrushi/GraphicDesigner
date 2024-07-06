@@ -11,7 +11,7 @@ else {
     if($run_delete){
       $filename = "assets/img/design/$design_image";
       unlink($filename);
-      echo "<script>window.open('index.php?all_designs','_self')</script>";
+      echo "<script>window.open('index?all_designs','_self')</script>";
     }
   }
 }

@@ -20,7 +20,7 @@
   <h2 class="text-center font-up font-bold my-4 pt-5 wow fadeIn" data-wow-delay="0.2s">Contact me</h2>
   <hr class="between-sections">
   <!--Section sescription-->
-  <p class="section-description my-5 pb-3 wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+  <p class="section-description my-5 pb-3 wow fadeIn" data-wow-delay="0.2s">Thank you for visiting my portfolio! If you have a project in mind, need a creative consultation, or simply want to connect, I'd love to hear from you. Whether you're looking for branding, print design, digital design, illustrations, or any other graphic design services, I'm here to help bring your vision to life.</p>
   <div class="row wow fadeIn" data-wow-delay="0.4s">
     <!--First column-->
     <div class="col-md-8 mb-r">
@@ -88,13 +88,13 @@
         <li><i class="fa fa-envelope fa-2x"></i>
           <p><?php echo $mail; ?></p>
         </li>
-        <li>
+        <!-- <li>
           <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
           <p>
             <a style="margin-left: 0px;" href="<?php echo $upwork; ?>" >Upwork</a> &nbsp;
             <a href="<?php echo $freelancer; ?>">Freelancer</a>
           </p>
-        </li>
+        </li> -->
       </ul>
     </div>
     <!--.Second column-->
